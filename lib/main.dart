@@ -10,13 +10,12 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: SignUpPage(),
+      home: LoginPage(),
       
     );
   }
 }
-class SignUpPage extends StatelessWidget {
-  const SignUpPage({ Key? key }) : super(key: key);
+class LoginPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
